@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Kalameh';
+    src: url('../assets/fonts/Kalameh-Thin.1f7c4af.eot');
+    src: url('../assets/fonts/Kalameh-Thin.1f7c4af.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Kalameh-Thin.9ce1cb0.woff') format('woff'),
+        url('../assets/fonts/Kalameh-Thin.77cd67c.woff2') format('woff2'),
+        url('../assets/fonts/Kalameh-Thin.76152a1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalameh';
+    src: url('../assets/fonts/Kalameh-ExtraLight.2047f8f.eot');
+    src: url('../assets/fonts/Kalameh-ExtraLight.2047f8f.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Kalameh-ExtraLight.bda2cdd.woff') format('woff'),
+        url('../assets/fonts/Kalameh-ExtraLight.a1ca362.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalameh';
+    src: url('../assets/fonts/Kalameh-Light.d0b378a.eot');
+    src: url('../assets/fonts/Kalameh-Light.d0b378a.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Kalameh-Light.6e146d5.woff') format('woff'),
+        url('../assets/fonts/Kalameh-Light.b773d9e.woff2') format('woff2'),
+        url('../assets/fonts/Kalameh-Light.d6b3928.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalameh';
+    src: url('../assets/fonts/Kalameh-Regular.25a8bec.eot');
+    src: url('../assets/fonts/Kalameh-Regular.25a8bec.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Kalameh-Regular.42b8a54.woff') format('woff'),
+        url('../assets/fonts/Kalameh-Regular.a038ae9.woff2') format('woff2'),
+        url('../assets/fonts/Kalameh-Regular.fe9383d (2).ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalameh';
+    src: url('../assets/fonts/Kalameh-Medium.e201a39.eot');
+    src: url('../assets/fonts/Kalameh-Medium.e201a39.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Kalameh-Medium.b309fcf.woff') format('woff'),
+        url('../assets/fonts/Kalameh-Medium.bc89e61.woff2') format('woff2'),
+        url('../assets/fonts/Kalameh-Medium.4cd761a.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalameh';
+    src: url('../assets/fonts/Kalameh-Bold.7dedd20.eot');
+    src: url('../assets/fonts/Kalameh-Bold.7dedd20.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Kalameh-Bold.337ad92.woff') format('woff'),
+        url('../assets/fonts/Kalameh-Bold.cc91ac9.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalameh';
+    src: url('../assets/fonts/Kalameh-Black.5ddc2c3.eot');
+    src: url('../assets/fonts/Kalameh-Black.5ddc2c3.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Kalameh-Black.576fc67.woff') format('woff'),
+        url('../assets/fonts/Kalameh-Black.2d9028b.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
