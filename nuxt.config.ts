@@ -1,4 +1,4 @@
-import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
+// import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 
 // PWA Config
 const title = "Vuetify 3 + Nuxt 3 Starter";
@@ -19,25 +19,27 @@ export default defineNuxtConfig({
   // enable takeover mode
   typescript: { shim: false },
 
-  build: { transpile: ["vuetify"] },
+  // build: { transpile: ["vuetify"] },
 
   // Based on docs found here - https://vuetifyjs.com/en/getting-started/installation/#using-nuxt-3
+  
   vite: {
+    plugins: [
+    ],
+
     vue: {
       template: {
-        transformAssetUrls,
+        // transformAssetUrls,
       },
     },
   },
 
   modules: [
     "@vite-pwa/nuxt",
-    async (options, nuxt) => {
-      nuxt.hooks.hook("vite:extendConfig", (config) => {
-        config.plugins ||= [];
-        config.plugins.push(vuetify());
-      });
-    },
+    "@nuxt/image",
+    "@nuxtjs/color-mode",
+    "@unocss/nuxt",
+
   ],
 
   app: {
@@ -146,6 +148,18 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  image: {
+    dir: 'assets/images',
+    domains: [
+      'images.unsplash.com'
+    ],
+    alias: {
+      unsplash: 'https://images.unsplash.com'
+    }
+    // Options
+  },
+
 
   compatibilityDate: "2024-07-15",
 });
